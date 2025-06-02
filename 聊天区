@@ -1,0 +1,23 @@
+Modified 8 game rules chosen from conwaylife wiki.
+Implemented next_state module, which updates the board with given game rules.
+The algorithm can also be found in https://github.com/ashkan-khd/conways-game-of-life-verilog.
+conway
+https://conwaylife.com/wiki/Conway%27s_Game_of_Life
+high
+https://conwaylife.com/wiki/OCA:HighLife
+low
+https://conwaylife.com/wiki/OCA:LowLife
+bacteria
+https://conwaylife.com/wiki/OCA:Bacteria
+coral
+https://conwaylife.com/wiki/OCA:Coral
+vote
+https://conwaylife.com/wiki/OCA:Vote
+maze
+https://conwaylife.com/wiki/OCA:Maze
+dance
+https://conwaylife.com/wiki/OCA:Dance
+Still need to implement a random number generator, init logic and add logic.
+When add1/4/16/64 pressed, randomly set 1/4/16/64 bits in the board to 1.
+This DOES NOT necessarily mean that corresponding zeros are triggered into ones.
+We need sparse, medium and dense init modes, still need some implementations here.
