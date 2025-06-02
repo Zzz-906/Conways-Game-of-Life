@@ -21,3 +21,4 @@ Still need to implement a random number generator, init logic and add logic.
 When add1/4/16/64 pressed, randomly set 1/4/16/64 bits in the board to 1.
 This DOES NOT necessarily mean that corresponding zeros are triggered into ones.
 We need sparse, medium and dense init modes, still need some implementations here.
+Needs tb. Will sim under W=8, H=6, generating a 48-bit output, and compare with expected outcomes.
